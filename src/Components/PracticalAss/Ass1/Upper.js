@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Upper() {
-    const [data, setData] = useState("Enter any text");
+    const [data, setData] = useState("");
 
     function Gettext(e) {
         setData(e.target.value);
